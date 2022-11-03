@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'org.MartinOndejka'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.13.4'
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+}
+
+test {
+    useJUnitPlatform()
+}
