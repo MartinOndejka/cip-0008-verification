@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="65565b9d-ac37-497f-ba6d-bcfd1922e4fc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/MartinOndejka/COSE_Key.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/MartinOndejka/COSE_Sign1.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/MartinOndejka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/MartinOndejka/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +130,8 @@
       <workItem from="1667510788760" duration="1029000" />
       <workItem from="1667511932999" duration="4000" />
       <workItem from="1667564462771" duration="5364000" />
+      <workItem from="1667581443496" duration="1502000" />
+      <workItem from="1667587401492" duration="1659000" />
     </task>
     <servers />
   </component>
