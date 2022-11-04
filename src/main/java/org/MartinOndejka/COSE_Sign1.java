@@ -1,5 +1,6 @@
 package org.MartinOndejka;
 
+import com.bloxbean.cardano.client.crypto.Bech32;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.dataformat.cbor.databind.CBORMapper;
 import org.bouncycastle.util.encoders.Hex;
@@ -55,6 +56,10 @@ public class COSE_Sign1 {
 
     public byte[] getAddress() throws IOException {
         return (byte[]) getProtectedHeaders().get(ADDRESS_LABEL);
+    }
+
+    public String getBech32Address(String hrp) throws  IOException {
+        return Bech32.encode(getAddress(), hrp);
     }
 
     public byte[] getPayload() {

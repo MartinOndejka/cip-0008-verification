@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.13.4'
     implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
+    implementation 'com.bloxbean.cardano:cardano-client-lib:0.3.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 }

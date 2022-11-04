@@ -21,5 +21,7 @@ public class Main {
         signer.update(sigStructure, 0, sigStructure.length);
 
         System.out.println(signer.verifySignature(signature.getSignature()));
+
+        System.out.println(signature.getBech32Address("addr_test"));
     }
 }
